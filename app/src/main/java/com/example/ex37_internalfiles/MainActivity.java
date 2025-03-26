@@ -118,7 +118,6 @@ public class MainActivity extends AppCompatActivity {
      *
      * @return The content of the file as a String.
      */
-
     public String readText() {
         String text = "";
         try {
