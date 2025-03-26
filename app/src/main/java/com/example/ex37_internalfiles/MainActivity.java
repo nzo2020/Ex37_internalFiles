@@ -44,8 +44,6 @@ public class MainActivity extends AppCompatActivity {
      * The name of the internal storage file.
      */
     private final String FILENAME = "inttest.txt";
-
-
     /**
      * Initializes the activity, sets up UI components, and loads the saved file content.
      *
@@ -120,6 +118,7 @@ public class MainActivity extends AppCompatActivity {
      *
      * @return The content of the file as a String.
      */
+
     public String readText() {
         String text = "";
         try {
